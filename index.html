@@ -22,6 +22,8 @@
       var width = canvas.width;
       var height = canvas.height;
       obj = 50;
+      canvas.width  = window.innerWidth/1.005;
+      canvas.height = window.innerHeight/1.005;
       function drawObj() {
         ctx.fillStyle="#353839";
         ctx.fillRect(width/2,height/2,obj,obj);
